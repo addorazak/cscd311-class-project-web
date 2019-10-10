@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Hall Registration</title>
+
+  <!-- Normalize.css -->
+
+  <link rel="stylesheet" type="text/css" href="normalize.css">
+
+  <!-- Custom.css -->
+
+  <link rel="stylesheet" type="text/css" href="main.css">
+
+  <!-- [if IE]>
+<script
+src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+</script>
+<![endif]-->
+</head>
+
+<body id="body">
+
+  <div id="overallContainer">
+    <div style="display: flex;align-items: center;justify-content: center;padding-top: 20px">
+      <img src="img/University-of-Ghana.jpg" width="100px" height="100px">
+      <h1 style="display: inline-block;padding-left: 10px">Welcome To University Of Ghana Hall Registration Portal</h1>
+    </div>
+    <br>
+    <div id="miniContainer">
+      Name: <span id="name"></span><br>
+      ID: <span id="id"></span> <br>
+      Level: <span id="level"></span> <br>
+      Gender: <span id="gender"></span> <br> <br>
+      <button onclick="logout()">Logout</button>
+    </div><br>
+    <div id="container">
+      <form onsubmit="register(event)">
+        <fieldset id="field">
+          <legend id="legend">Hall Registration</legend><br>
+          <label>HALL</label><br>
+          <select id="hall">
+            <option hidden>Select a Hall</option>
+            <option>Legon Hall</option>
+            <option>Akuafo Hall</option>
+            <option>Sarbah Hall</option>
+            <option>Commonwealth Hall</option>
+            <option>Volta Hall</option>
+          </select><br><br>
+          <label>ROOM</label><br>
+          <select id="room">
+            <option hidden>Select a Room</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+          </select><br><br>
+          <input id="submit" type="submit">
+        </fieldset>
+      </form>
+    </div> <!-- #container -->
+
+  </div>
+  <!--#overallContainer-->
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="hall.js"></script>
+
+  <footer id="footer">
+      <p>&copy; 2019 &mdash; Razak Addo</p>
+  </footer>
+</body>
+</html>

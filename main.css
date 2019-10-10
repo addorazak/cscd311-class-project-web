@@ -1,0 +1,159 @@
+  /* LOGIN PAGE */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+#login-page {
+  border: solid 1px black;
+  padding: 40px 0px;
+  height: 50%;
+ text-align: center;
+ background-color: rgba(29, 28, 28, 0.897);
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ backdrop-filter: blur(2px);
+}
+
+body{
+  background: url(img/UG-768x432.jpg);
+  background-size: 100% 100%;
+  height: 100vh;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(2px);
+
+
+}
+
+h1 {
+  font-family: "Helvetica-Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+
+}
+
+input[type="text"],
+input[type="password"]
+{
+  border: solid 1px #454545;
+  padding: 10px 80px;
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 20px;
+  border-top: none;
+  border-radius: 10px;
+  
+}
+
+input[type="submit"]:hover{
+ color: white;
+ background-color: #aaa;
+ cursor: pointer;
+ padding: 2px 6px;
+}
+input[type="submit"] {
+  padding: 2px 8px;
+}
+
+.label:hover {
+  cursor: pointer;
+
+}
+
+#heading {
+   border: solid 1px black;
+   border: 50%  50%;
+   margin-top: 50px;
+   margin-bottom: 30px;
+   padding: 20px;
+   background-color: #89cff0;
+}
+
+.login-form{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.label {
+  margin-top: 20px;
+  border: solid 1px black; 
+  padding: 6px 100px;
+  background: url(images/ash.jpg);
+  background-size: cover;
+}
+
+.footer {
+  color: white;
+}
+
+#mainContainer {
+  border: solid 1px pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Hall Registration */
+
+#field {
+  padding: 40px;
+  border: solid 1px #aaa;
+  height: 60%;
+  background-color: #ffffffde;
+}
+
+#legend {
+  border: solid 1px #aaa;
+  padding: 5px;
+  background: white;
+  font-size: larger;
+
+}
+
+#container {
+  width: 560px;
+  margin: 0 auto;
+}
+
+#body {
+  
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+h1 {
+  color: black;
+}
+
+#miniContainer {
+  color: black;
+    background-color: #ffffffde;
+    margin-left: 195px;
+    padding: 10PX;
+    margin-right: 195PX;
+}
+
+#overallContainer {
+  border: solid 1px pink;
+  background:url(img/pentt.jpg);
+  backdrop-filter: blur(0px);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin: 0 auto;
+  HEIGHT: 100vh;
+
+}
+

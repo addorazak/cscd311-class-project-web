@@ -1,0 +1,41 @@
+<!doctype HTML>
+<html>
+  <head>
+     <title>Login Page</title>
+          <!-- Normalize.css --> 
+     <link rel="stylesheet" type="text/css" href="normalize.css">
+          <!-- Custom.css -->
+     <link rel="stylesheet" type="text/css" href="main.css">
+       
+     <!-- [if IE]>
+     <script
+     src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+     </script>
+     <![endif]-->
+
+ </head>
+
+  <body>
+    
+    <div id="mainContainer">
+      <form class="login-form" onsubmit="login(event)">
+        <h3 id="heading">Registered Users: Login Credentials</h3><br>
+        <label for="stuID" class="label">STUDENT ID</label><br>
+       <input type="text" id="stuID" name="id-number" pattern="[0-9]*"/><br><br>
+       <label for="stuPIN" class="label">STUDENT PIN</label><br>
+       <input type="password" id="stuPIN" name="pin" pattern="[0-9]*" required/><br><br>
+      
+       <input type="submit" value="Login"/>
+      </form>
+      <script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+      <script src="login.js"></script>
+ 
+      <footer class="footer">
+          <p>&copy; 2019 &mdash; Razak Addo</p>
+      </footer>
+    </div> <!--#mainContainer-->
+  </body>
+  </html>
